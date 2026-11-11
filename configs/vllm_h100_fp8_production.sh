@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # ==============================================================================
-# Sovereign Enterprise AI — Production vLLM Launch Specification
+# Sovereign Enterprise AI - Production vLLM Launch Specification
 # Hardware Target: 8x NVIDIA H100 SXM5 80GB (NVLink 4.0 - 900 GB/s bidirectional)
 # Model Target: Llama-3.3-70B-Instruct-FP8 / DeepSeek-R1-FP8
 # Security Posture: Air-Gapped Private Enclave (Zero-Egress VPC Bindings)

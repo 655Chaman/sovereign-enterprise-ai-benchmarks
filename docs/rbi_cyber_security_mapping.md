@@ -1,4 +1,4 @@
-# Reserve Bank of India (RBI) IT Governance & Cyber Controls — Sovereign AI Architecture Mapping
+# Reserve Bank of India (RBI) IT Governance & Cyber Controls - Sovereign AI Architecture Mapping
 
 **Document Identifier:** ELESIUM-RBI-MAPPING-2026-V1  
 **Author:** Elesium Digital Systems (https://elesium.online)  

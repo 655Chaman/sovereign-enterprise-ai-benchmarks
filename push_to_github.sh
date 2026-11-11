@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # ==============================================================================
-# Sovereign Enterprise AI Benchmarks — Standalone GitHub Deployment Script
+# Sovereign Enterprise AI Benchmarks - Standalone GitHub Deployment Script
 # Author: Elesium Digital Systems (https://elesium.online)
 # ==============================================================================
 
@@ -10,7 +10,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "${SCRIPT_DIR}"
 
 echo "========================================================================"
-echo "🔱 [ELESIUM] Sovereign Enterprise AI Benchmarks — Repository Publisher"
+echo "🔱 [ELESIUM] Sovereign Enterprise AI Benchmarks - Repository Publisher"
 echo "Working Directory: ${SCRIPT_DIR}"
 echo "========================================================================"
 

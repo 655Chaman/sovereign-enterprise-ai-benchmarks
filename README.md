@@ -33,10 +33,10 @@ Engineered and maintained by [Elesium Digital Systems](https://elesium.online), 
 
 ## 🏛️ The Sovereign Architecture Manifesto
 
-Enterprise AI in 2026 faces an existential regulatory and architectural reckoning. The prevailing industry pattern—routing sensitive enterprise prompts, financial transactions, and customer PII through multi-tenant, cloud-hosted SaaS APIs located in foreign availability zones—violates core statutory mandates:
+Enterprise AI in 2026 faces an existential regulatory and architectural reckoning. The prevailing industry pattern (routing sensitive enterprise prompts, financial transactions, and customer PII through multi-tenant, cloud-hosted SaaS APIs located in foreign availability zones) violates core statutory mandates:
 
 1. **The Data Sovereignty Trap:** Under the **Digital Personal Data Protection (DPDP) Act, 2023** (Section 16) and the **RBI 2023 Master Direction on IT Governance** (Chapter VII), Indian enterprises in BFSI, Healthcare, and Critical Infrastructure cannot legally exfiltrate customer records to offshore multi-tenant inference clusters.
-2. **The WAN Latency Penalty:** Public cloud API endpoints suffer from erratic wide-area network (WAN) round-trip overhead (300ms–1,200ms TTFT) and unpredictable P99 tail latency due to shared multi-tenant resource contention.
+2. **The WAN Latency Penalty:** Public cloud API endpoints suffer from erratic wide-area network (WAN) round-trip overhead (300ms to 1,200ms TTFT) and unpredictable P99 tail latency due to shared multi-tenant resource contention.
 3. **The Non-Deterministic Execution Risk:** Unconstrained linear agent chains hallucinate tool arguments, leading to catastrophic execution failures when connected to core banking APIs or enterprise ERPs.
 
 **The Elesium Solution:** We engineer fully air-gapped, sovereign AI clusters deployed inside customer-owned AWS Mumbai (`ap-south-1`) or on-premise Tier-IV enclaves (CtrlS, STT GDC). By combining **8x NVIDIA H100 SXM5 hardware**, **vLLM FP8 W8A8 kernel optimization**, **PagedAttention v2**, and **deterministic LangGraph state machines backed by Redis MessagePack checkpoints**, we deliver sub-100ms TTFT, zero WAN egress, and provable statutory compliance.
@@ -147,7 +147,7 @@ Run our production-hardened launch script configured with FP8 W8A8 GEMM executio
 
 ```bash
 # Clone and enter repo
-git clone https://github.com/elesium-online/sovereign-enterprise-ai-benchmarks.git
+git clone https://github.com/655Chaman/sovereign-enterprise-ai-benchmarks.git
 cd sovereign-enterprise-ai-benchmarks
 
 # Configure environment and execute production daemon
@@ -203,10 +203,13 @@ If you utilize these benchmarks, architectures, or production configs in your re
 
 ## 🏛️ Architecture Desk & Commercial Engagements
 
-Elesium partners with Tier-1 banks, insurance conglomerates, and enterprise leaders across India to deploy turnkey sovereign AI infrastructure with a **contractual 90-day ROI guarantee**.
+Elesium partners with Tier-1 banks, Global Capability Centers (GCCs), insurance conglomerates, and enterprise leaders across Bengaluru, Karnataka, and pan-India to deploy turnkey sovereign AI infrastructure with a **contractual 90-day ROI guarantee**.
 
-- **Solutions Portfolio:** [https://elesium.online/solutions](https://elesium.online/solutions)
-- **Technical Signals & Research:** [https://elesium.online/signals](https://elesium.online/signals)
-- **Engagement Framework:** [https://elesium.online/how-we-work](https://elesium.online/how-we-work)
+- **Bengaluru HQ & Karnataka Tech Corridor Hub:** [https://elesium.online/enterprise-ai-bangalore/](https://elesium.online/enterprise-ai-bangalore/)
+- **Solutions Portfolio (100 Certified Architectures):** [https://elesium.online/solutions/](https://elesium.online/solutions/)
+- **Technical Documentation & Benchmarks:** [https://elesium.online/docs/benchmarks/](https://elesium.online/docs/benchmarks/)
+- **DPDP Act 2023 Penalty Calculator:** [https://elesium.online/tools/dpdp-act-penalty-exposure-calculator/](https://elesium.online/tools/dpdp-act-penalty-exposure-calculator/)
+- **Technical Signals & Research:** [https://elesium.online/signals/](https://elesium.online/signals/)
+- **Engagement Framework:** [https://elesium.online/how-we-work/](https://elesium.online/how-we-work/)
 - **Direct Architecture Desk (WhatsApp):** [+91 83173 29312](https://wa.me/918317329312)
-- **Headquarters:** Koramangala 4th Block, Bangalore, Karnataka 560034, India
+- **Headquarters:** Koramangala 4th Block, 80 Feet Road, Bengaluru, Karnataka 560034, India (12.9352 N, 77.6245 E) | **R&D Pod:** Shivamogga, Karnataka 577205
